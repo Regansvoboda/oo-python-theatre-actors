@@ -1,3 +1,13 @@
 
 class Audition:
-    pass
+    all = []
+
+    def __init__(self, location, hired, role_instance, actor_instance ):
+        self.location = location
+        self.hired = hired
+        self.role = role_instance
+        self.actor = actor_instance
+        Audition.all.append
+
+    def call_back(self):
+        self.hired = True
